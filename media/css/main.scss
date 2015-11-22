@@ -1,0 +1,73 @@
+@import "compass/css3";
+
+$lato: 'Lato', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+@mixin placeholder($color) {
+  &:-moz-placeholder { color: $color;}
+  &::-webkit-input-placeholder { color: $color;}
+}
+
+body, html {
+  background: #cf1e0f;
+}
+
+div.container-one {
+  width: 25%;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  left: 0;
+  background: image-url("back_1.png");
+  background-position: right;
+  background-size: cover;
+}
+
+div.container-two {
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: image-url("back2.png");
+  background-size: cover;
+}
+
+div.home-container {
+  max-width: 500px;
+  height: 100%;
+  position: relative;
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+
+  img {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  p {
+    margin: 15px 0 40px;
+    font-family: $lato;
+    font-size: 20px;
+    color: #fff;
+    line-height: 180%;
+  }
+
+  input[type='text'] {
+    background: #cf1e0f;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    width: 300px;
+    color: #fff;
+    @include placeholder(#fff);
+  }
+
+  button {
+    background: #cf1e0f;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+  }
+}
+
