@@ -41,6 +41,8 @@ div.home-container p {
   font-size: 20px;
   color: #fff;
   line-height: 180%;
+  font-weight: 100;
+  letter-spacing: 1.4px;
 }
 div.home-container input[type='text'] {
   background: #cf1e0f;
