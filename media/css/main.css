@@ -48,7 +48,7 @@ div.home-container p {
   font-weight: 100;
   letter-spacing: 1.4px;
 }
-div.home-container input[type='text'] {
+div.home-container input[type='email'] {
   background: #cf1e0f;
   border: 2px solid #fff;
   padding: 14px 30px;
@@ -58,10 +58,10 @@ div.home-container input[type='text'] {
   font-family: "Lato", sans-serif;
   font-size: 20px;
 }
-div.home-container input[type='text']:-moz-placeholder {
+div.home-container input[type='email']:-moz-placeholder {
   color: white;
 }
-div.home-container input[type='text']::-webkit-input-placeholder {
+div.home-container input[type='email']::-webkit-input-placeholder {
   color: white;
 }
 div.home-container button {
