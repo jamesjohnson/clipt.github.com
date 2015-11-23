@@ -59,17 +59,23 @@ div.home-container {
   input[type='text'] {
     background: #cf1e0f;
     border: 2px solid #fff;
-    padding: 10px 20px;
+    padding: 14px 30px;
     width: 300px;
     color: #fff;
     @include placeholder(#fff);
+    font-weight: 100;
+    font-family: $lato;
+    font-size: 20px;
   }
 
   button {
-    background: #cf1e0f;
+    color: #cf1e0f;
     border: 2px solid #fff;
-    padding: 10px 20px;
-    color: #fff;
+    padding: 14px 30px;
+    font-weight: 300;
+    background: #fff;
+    font-family: $lato;
+    font-size: 20px;
   }
 }
 
