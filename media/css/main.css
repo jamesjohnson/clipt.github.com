@@ -1,5 +1,6 @@
 body, html {
   background: #cf1e0f;
+  height: 100%;
 }
 
 div.container-one {
@@ -8,7 +9,6 @@ div.container-one {
   top: 0;
   height: 100%;
   left: 0;
-  background: url('../img/back_1.png?1448231189');
   background-position: right;
   background-size: cover;
 }
@@ -19,15 +19,19 @@ div.container-two {
   top: 0;
   right: 0;
   height: 100%;
-  background: url('../img/back2.png?1448231213');
   background-size: cover;
 }
 
 div.home-container {
   max-width: 500px;
-  height: 100%;
+  height: auto;
   position: relative;
-  margin: 50px auto;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   padding: 50px;
   text-align: center;
 }
